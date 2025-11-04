@@ -1,0 +1,36 @@
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 20px; /* Ajoute un espacement à gauche et à droite */
+  max-width: 1200px; /* Optionnel: limite la largeur maximale */
+  margin: 0 auto; /* Optionnel: centre la section si max-width est utilisé */
+  gap: 20px; /* Ajoute un espacement entre les éléments */
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: rgb(238, 198, 19);
+  font-family: "Poppins-regular", sans-serif;
+  font-size: 20px;
+}
+
+.phone-link {
+  display: inline-block;
+  color: rgb(238, 198, 19);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid rgb(238, 198, 19);
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.phone-link:hover {
+  background-color: rgb(238, 198, 19);
+  color: black;
+}

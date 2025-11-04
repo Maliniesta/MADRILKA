@@ -1,0 +1,34 @@
+{
+  "snack": [
+    {
+      "titre": "Poulet-curry",
+      "image": "../assets/images/poulet-curry.jpg",
+      "prix": "5,50 €",
+      "description": "Un panini gourmand au poulet mariné au curry doux et fondant."
+    },
+    {
+      "titre": "Nutella",
+      "image": "../assets/images/nutella.png",
+      "prix": "4,00 €",
+      "description": "Panini sucré, garni généreusement de Nutella fondant, parfait pour les gourmands !"
+    },
+    {
+      "titre": "4 Fromages",
+      "image": "../assets/images/4-fromages.jpg",
+      "prix": "5,80 €",
+      "description": "Mélange fondant de mozzarella, emmental, chèvre et bleu, pour les amoureux du fromage."
+    },
+    {
+      "titre": "Kebab",
+      "image": "../assets/images/kebab.jpg",
+      "prix": "6,00 €",
+      "description": "Panini garni de viande kebab grillée, salade, tomate et sauce blanche maison."
+    },
+    {
+      "titre": "Chèvre-Courgette",
+      "image": "../assets/images/chevre-courgette.jpg",
+      "prix": "5,70 €",
+      "description": "Alliance parfaite du chèvre fondant, des courgettes grillées et d’un filet de miel."
+    }
+  ]
+}

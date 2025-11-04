@@ -1,0 +1,37 @@
+.primary-btn {
+  padding: 20px 20px;
+  background-color: rgb(238, 198, 19);
+  border-radius: 20px;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(163, 96, 37);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 10px 20px rgba(128, 128, 128, 0.4),
+    0 6px 6px rgba(70, 70, 70, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease,
+    background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ffd972, #f0b15b);
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.5),
+    0 8px 8px rgba(70, 70, 70, 0.3);
+}
+
+.secondary-btn {
+  padding: 15px 15px;
+  background-color: rgb(238, 198, 19);
+  border-radius: 20px;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 8px 16px rgba(100, 100, 100, 0.4),
+    0 6px 20px rgba(150, 150, 150, 0.3);
+  margin-top: 1rem;
+}

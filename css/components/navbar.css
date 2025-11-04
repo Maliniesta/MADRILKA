@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+/* --- Bouton menu burger --- */
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 32px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.menu-toggle span {
+  display: block;
+  height: 3px;
+  background: rgb(238, 198, 19);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* --- Animation du burger quand actif --- */
+.menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translateY(8px);
+}
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+.menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-8px);
+}
+
+/* --- Liens de la nav --- */
+.nav-links {
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  top: 40px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.nav-links.open {
+  display: flex;
+}
+
+.nav-links li {
+  margin: 10px 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(238, 198, 19);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
