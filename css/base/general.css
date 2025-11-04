@@ -4,15 +4,22 @@
   box-sizing: border-box;
 }
 
+/* general.css */
+
 @font-face {
   font-family: "Leckerli-regular";
-  src: url("/assets/fonts/Leckerli-Regular.ttf");
+  src: url("../../assets/fonts/Leckerli-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Poppins-regular";
-  src: url("/assets/fonts/Poppins-regular.ttf");
+  src: url("../../assets/fonts/Poppins-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
+
 html,
 body {
   margin: 0;
