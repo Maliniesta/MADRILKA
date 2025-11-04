@@ -1,5 +1,5 @@
 // Modifier le chemin du fetch pour être relatif à la racine du projet
-fetch("https://Maliniesta.github.io/MADRILKA/JSON/snack.json")
+fetch("/MADRILKA/JSON/snack.json")
   .then((response) => {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
