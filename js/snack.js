@@ -1,7 +1,17 @@
-fetch("../JSON/snack.json")
-  .then((response) => response.json())
+// Modifier le chemin du fetch pour être relatif à la racine du projet
+fetch("/JSON/snack.json")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+  })
   .then((data) => {
     const container = document.querySelector(".snack-container");
+    if (!container) {
+      console.error("Container non trouvé");
+      return;
+    }
 
     data.snack.forEach((snack) => {
       const card = document.createElement("div");
@@ -16,7 +26,12 @@ fetch("../JSON/snack.json")
       `;
       container.appendChild(card);
     });
+  })
+  .catch((error) => {
+    console.error("Erreur lors du chargement des données :", error);
   });
+
+// ...existing code...
 
 const allergeneModal = document.getElementById("modal-allergene");
 const allergeneBtn = document.getElementById("btn-allergene");
