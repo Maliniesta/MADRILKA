@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: "Leckerli-regular";
-  src: url("/MADRILKA/assets/fonts/Leckerli-Regular.ttf");
+  src: url("/assets/fonts/Leckerli-Regular.ttf");
 }
 
 @font-face {
   font-family: "Poppins-regular";
-  src: url("/MADRILKA/assets/fonts/Poppins-regular.ttf");
+  src: url("/assets/fonts/Poppins-regular.ttf");
 }
 html,
 body {
