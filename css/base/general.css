@@ -6,16 +6,6 @@
 
 /* general.css */
 
-@font-face {
-  font-family: "Leckerli-regular";
-  src: url("../../assets/fonts/Leckerli-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Poppins-regular";
-  src: url("../../assets/fonts/Poppins-regular.ttf") format("truetype");
-}
-
 html,
 body {
   margin: 0;
